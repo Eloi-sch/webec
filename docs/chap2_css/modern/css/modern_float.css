@@ -1,0 +1,27 @@
+@import "common.css";
+
+/* Float-based layout */
+
+#center{
+    display: flex;
+    align-items: flex-start;
+}
+
+nav{
+    order: 0;
+    width: 180px;
+  padding: 0 10px;
+    right: 240px;
+}
+
+main{
+    order: 1;
+    padding: 0 20px;
+    width: 100%;
+}
+
+aside{
+    order: 2;
+    width: 130px;
+    padding: 0 10px;
+}
